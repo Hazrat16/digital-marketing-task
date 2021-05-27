@@ -1,0 +1,26 @@
+.wrapper {
+    height: 120vh;
+}
+  
+  .dashed-box {
+    position: relative;
+    z-index: 4;
+    padding-left: auto;
+    padding-top:100px;
+  }
+  .people-box {
+    position: absolute;
+    z-index: 3; /* put .gold-box above .green-box and .dashed-box */
+    right: 100px;
+    top: 10em;
+  }
+  .blue-box {
+    position: absolute;
+    z-index: 2; /* put .green-box above .dashed-box */
+    right: 40%;
+    top: -25px;
+    opacity: 0.9;
+  }
+  .blue-box img{
+      margin-left: -215px;
+  }

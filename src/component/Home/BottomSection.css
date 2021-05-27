@@ -1,0 +1,13 @@
+.people {
+    position: absolute;
+    z-index: 3; /* put .gold-box above .green-box and .dashed-box */
+    left: 8%;
+    top: 97em;
+  }
+  .sea {
+    position: absolute;
+    z-index: 2; /* put .green-box above .dashed-box */
+    left: 0%;
+    bottom: -1385px;
+    opacity: 0.9;
+  }
